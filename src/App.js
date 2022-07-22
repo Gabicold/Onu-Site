@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import styled from "styled-components"
+import React from "react"
+import Cow from "./midia/cow-jam.gif"
+const Batata = styled.img`
+width:90vw;
+height:90vh;
+`
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Batata src={Cow}/>
+    </>
   );
 }
 
-export default App;
