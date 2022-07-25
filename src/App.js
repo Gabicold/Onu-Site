@@ -1,15 +1,23 @@
-import styled from "styled-components"
 import React from "react"
-import Cow from "./midia/cow-jam.gif"
-const Batata = styled.img`
-width:90vw;
-height:90vh;
+import { createGlobalStyle } from "styled-components"
+import Home from "./Components/Home/Home"
+import Header from "./Components/Header/Header"
+
+const GlobalStyle = createGlobalStyle`
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 `
 export default function App() {
   return (
-    <>
-      <Batata src={Cow}/>
-    </>
-  );
+    <div>
+      <GlobalStyle/>
+      <Header/>
+      <Home/>
+    </div>
+  )
 }
 
