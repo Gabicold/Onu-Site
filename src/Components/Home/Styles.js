@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
 export const BoxHome = styled.div`
 margin-top:10vh;
@@ -88,3 +88,26 @@ heigth:10vh;
 export const A = styled.a`
 text-decoration:none;
 `
+
+export const BoxButton = styled.section`
+display:flex;
+justify-content:center;
+width:60vw;
+margin-top:5vh;
+`
+
+const AnimaçaoDeBalanço = keyframes`
+0%{top:85vh;}
+50%{top:82vh;}
+100%{top:85vh;}
+`
+export const Topo = styled.img`
+width:4vw;
+height:8vh;
+cursor:pointer;
+position:fixed;
+top:85vh;
+left:90vw;
+animation:${AnimaçaoDeBalanço} 3s  infinite;
+`
+

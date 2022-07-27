@@ -25,3 +25,13 @@ export const SubTitle = styled.p`
 font-size:2rem;
 color:white;
 `
+export const Text = styled.h2`
+margin-top:5vh;
+font-size:2rem;
+`
+
+export const List = styled.li`
+font-size:1.5rem;
+margin-left:5vw;
+margin-top:5vh;
+`

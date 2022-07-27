@@ -4,7 +4,7 @@ import Placa from "../../../../midia/Placa.png"
 export default function Agua (){
 
     return(
-        <S.SectionBanner id="Ambiente">
+        <S.SectionBanner id="estrada">
             <S.BoxBanner>
                 <section>
                     <S.SubTitle>Objetivos de Desenvolvimento Sustentável</S.SubTitle>
@@ -14,11 +14,11 @@ export default function Agua (){
                 <S.Logo src={Placa} alt="Placa"/>
              </S.BoxBanner>
              <section>
-                <h2>Objetivo 1 - Melhorar a qualidade das estradas</h2>
+                <S.Text>Objetivo 1 - Melhorar a qualidade das estradas</S.Text>
                 <ul>
-                    <li>Até 2024, Diminuir a quantidade de buracos nas estradas</li>
-                    <li>Até 2028, Iluminar as estradas para os bairros</li>
-                    <li>até 2023, reparar as ruas</li>
+                    <S.List>Até 2024, Diminuir a quantidade de buracos nas estradas</S.List>
+                    <S.List>Até 2028, Iluminar as estradas para os bairros</S.List>
+                    <S.List>até 2023, reparar as ruas</S.List>
                 </ul>
 
              </section>

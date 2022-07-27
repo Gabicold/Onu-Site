@@ -8,6 +8,7 @@ import AguaComponent from "./Objetivos/Agua/Agua"
 import Energia from "./Objetivos/Energia/energia"
 import Ambiente from "./Objetivos/Ambiente/ambiente"
 import Estradas from "./Objetivos/Estradas/estrada"
+import Seta from "../../midia/setacima.png"
 export default function Home(){
 
 
@@ -39,7 +40,7 @@ export default function Home(){
                     </S.TextsBox>
                     <S.Image src={Arvore}/>
                 </S.BoxImageArvore></S.A>
-                <S.A href="#"><S.BoxImagePlaca>
+                <S.A href="#estrada"><S.BoxImagePlaca>
                     <S.TextsBox>
                         <S.NumberBox>4</S.NumberBox>
                         <S.TextBox>Estradas</S.TextBox>
@@ -53,6 +54,10 @@ export default function Home(){
                 <Energia />
                 <Ambiente/>
                 <Estradas/>
+                <S.BoxButton>
+                    <a href="#header"><S.Topo src={Seta} alt="seta para voltar ao topo"/></a>
+                </S.BoxButton>
+                
             </section>
         </S.BoxHome>
     )

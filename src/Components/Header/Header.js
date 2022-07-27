@@ -4,7 +4,7 @@ import Brasao from "../../midia/brasao.png"
 export default function Header(){
 
     return(
-        <S.SectionBanner>
+        <S.SectionBanner id="header">
             <S.BoxBanner>
                 <S.Title>Sobre o nosso trabalho para alcançar os Objetivos de Desenvolvimento Sustentável em Santana Do Deserto</S.Title>
                 <S.Logo src={Brasao} alt="brasao da prefeitura de santana"/>

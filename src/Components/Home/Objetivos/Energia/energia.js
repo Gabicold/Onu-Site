@@ -14,10 +14,10 @@ export default function Agua (){
                 <S.Logo src={Lampada} alt="Gota de agua"/>
              </S.BoxBanner>
              <section>
-                <h2>Objetivo 1 - Melhorar a energia deistribuída.</h2>
+                <S.Text>Objetivo 1 - Melhorar a energia deistribuída.</S.Text>
                 <ul>
-                    <li>Até 2030, Resolver os problemas de queda de energia frenquêntes na cidade.</li>
-                    <li>Até 2022, consertar as lampadas da rua, sao queimadas com frequência.</li>
+                    <S.List>Até 2030, Resolver os problemas de queda de energia frenquêntes na cidade.</S.List>
+                    <S.List>Até 2022, consertar as lampadas da rua, sao queimadas com frequência.</S.List>
                 </ul>
 
              </section>

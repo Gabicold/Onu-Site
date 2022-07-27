@@ -14,10 +14,10 @@ export default function Agua (){
                 <S.Logo src={Arvore} alt="Gota de agua"/>
              </S.BoxBanner>
              <section>
-                <h2>Objetivo 1 - Reduzir os impactos no meio ambiente</h2>
+                <S.Text>Objetivo 1 - Reduzir os impactos no meio ambiente</S.Text>
                 <ul>
-                    <li>Até 2029, Diminuir as queimadas nos morros</li>
-                    <li>Até 2026, Criar canteiros onde se concentra a maior quantidade de lixo</li>
+                    <S.List>Até 2029, Diminuir as queimadas nos morros</S.List>
+                    <S.List>Até 2026, Criar canteiros onde se concentra a maior quantidade de lixo</S.List>
                 </ul>
 
              </section>
